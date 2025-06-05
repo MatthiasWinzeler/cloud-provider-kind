@@ -18,8 +18,8 @@ import (
 	"k8s.io/klog/v2"
 	netutils "k8s.io/utils/net"
 
-	"sigs.k8s.io/cloud-provider-kind/pkg/config"
-	"sigs.k8s.io/cloud-provider-kind/pkg/container"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/config"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/container"
 )
 
 // keep in sync with dynamicFilesystemConfig

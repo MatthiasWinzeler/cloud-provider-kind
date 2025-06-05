@@ -7,6 +7,11 @@ import (
 	"sync"
 	"time"
 
+	cpkconfig "github.com/MatthiasWinzeler/cloud-provider-kind/pkg/config"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/constants"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/container"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/loadbalancer"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/provider"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/wait"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
@@ -20,11 +25,6 @@ import (
 	controllersmetrics "k8s.io/component-base/metrics/prometheus/controllers"
 	ccmfeatures "k8s.io/controller-manager/pkg/features"
 	"k8s.io/klog/v2"
-	cpkconfig "sigs.k8s.io/cloud-provider-kind/pkg/config"
-	"sigs.k8s.io/cloud-provider-kind/pkg/constants"
-	"sigs.k8s.io/cloud-provider-kind/pkg/container"
-	"sigs.k8s.io/cloud-provider-kind/pkg/loadbalancer"
-	"sigs.k8s.io/cloud-provider-kind/pkg/provider"
 	"sigs.k8s.io/kind/pkg/cluster"
 )
 

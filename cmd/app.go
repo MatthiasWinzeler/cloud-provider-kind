@@ -14,9 +14,9 @@ import (
 	"k8s.io/component-base/logs"
 	"k8s.io/klog/v2"
 
-	"sigs.k8s.io/cloud-provider-kind/pkg/config"
-	"sigs.k8s.io/cloud-provider-kind/pkg/controller"
-	"sigs.k8s.io/cloud-provider-kind/pkg/images"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/config"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/controller"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/images"
 	"sigs.k8s.io/kind/pkg/cluster"
 	kindcmd "sigs.k8s.io/kind/pkg/cmd"
 )

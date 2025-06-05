@@ -10,7 +10,7 @@ import (
 
 	"k8s.io/klog/v2"
 
-	"sigs.k8s.io/cloud-provider-kind/pkg/container"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/container"
 )
 
 type tunnelManager struct {

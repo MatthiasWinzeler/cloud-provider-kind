@@ -1,7 +1,7 @@
 package main
 
 import (
-	"sigs.k8s.io/cloud-provider-kind/cmd"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/cmd"
 )
 
 func main() {

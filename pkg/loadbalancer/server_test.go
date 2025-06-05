@@ -3,9 +3,9 @@ package loadbalancer
 import (
 	"testing"
 
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/constants"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"sigs.k8s.io/cloud-provider-kind/pkg/constants"
 )
 
 func TestLoadBalancerName(t *testing.T) {

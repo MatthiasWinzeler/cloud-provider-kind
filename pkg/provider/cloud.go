@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"sigs.k8s.io/cloud-provider-kind/pkg/constants"
-	"sigs.k8s.io/cloud-provider-kind/pkg/loadbalancer"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/constants"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/loadbalancer"
 
 	cloudprovider "k8s.io/cloud-provider"
 

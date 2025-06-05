@@ -10,15 +10,15 @@ import (
 	"path"
 	"strings"
 
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/config"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/constants"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/container"
+	"github.com/MatthiasWinzeler/cloud-provider-kind/pkg/images"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	cloudprovider "k8s.io/cloud-provider"
 	"k8s.io/klog/v2"
 	"k8s.io/utils/ptr"
-	"sigs.k8s.io/cloud-provider-kind/pkg/config"
-	"sigs.k8s.io/cloud-provider-kind/pkg/constants"
-	"sigs.k8s.io/cloud-provider-kind/pkg/container"
-	"sigs.k8s.io/cloud-provider-kind/pkg/images"
 )
 
 type Server struct {
